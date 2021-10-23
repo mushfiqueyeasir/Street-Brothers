@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap');
+
+#width{
+    width: 350px;
+   
+}
+.moving-left
+{
+
+  position: relative;
+  transition: transform 0.3s ease;
+  transform: translateX(0px);
+
+}
+.moving-left:hover
+{
+    transform: translate(40px, 40px);
+ 
+}
+h1,span,h2 {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
