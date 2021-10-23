@@ -4,7 +4,7 @@
     width: 350px;
    
 }
-.moving-left
+.moving-right-down
 {
 
   position: relative;
@@ -12,14 +12,28 @@
   transform: translateX(0px);
 
 }
-.moving-left:hover
+.moving-right-down:hover
 {
     transform: translate(40px, 40px);
- 
 }
-h1,span,h2 {
-    font-family: 'Poppins', sans-serif;
 
+.moving-right-top
+{
+
+  position: relative;
+  transition: transform 0.3s ease;
+  transform: translateY(0px);
+ 
+
+}
+.moving-right-top:hover
+{
+    transform: translate(0px, -40px);
+}
+
+
+h1,span,h2 {
+    font-family: 'Poppins', sans-serif
 }
 
 
